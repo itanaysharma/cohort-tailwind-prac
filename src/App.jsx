@@ -13,6 +13,11 @@ function App() {
         <div style={{ backgroundColor: "green" }}>hi</div>
         <div style={{ backgroundColor: "yellow" }}>hi</div>
       </div>
+      <div className="flex justify-around">
+        <div className="bg-red-500">hi</div>
+        <div className="bg-green-500">hi</div>
+        <div className="bg-yellow-500">hi</div>
+      </div>
     </>
   );
 }
