@@ -18,6 +18,11 @@ function App() {
         <div className="bg-green-500">hi</div>
         <div className="bg-yellow-500">hi</div>
       </div>
+      <div className="grid grid-cols-3">
+        <div className="bg-red-500">hi</div>
+        <div className="bg-green-500">hi</div>
+        <div className="bg-yellow-500">hi</div>
+      </div>
     </>
   );
 }
