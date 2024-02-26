@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import { RrevenueCard } from "./components/RevenueCard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +28,13 @@ function App() {
         <div className="bg-red-500 ">hi</div>
         <div className="bg-green-500">hi</div>
         <div className="bg-yellow-500 ">hi</div>
+      </div>
+      <div className="grid grid-cols-2">
+        <RrevenueCard
+          title={"Amount pending"}
+          amount={"92,312.20"}
+          orderCount={13}
+        ></RrevenueCard>
       </div>
     </>
   );
